@@ -1,0 +1,25 @@
+import { Navigation } from "@/components/navigation"
+import { Hero } from "@/components/hero"
+import { About } from "@/components/about"
+import { Experience } from "@/components/experience"
+import { Projects } from "@/components/projects"
+import { TechnicalSkills } from "@/components/technical-skills"
+import { OrganizationsAwards } from "@/components/organizations-awards"
+import { Education } from "@/components/education"
+import { Footer } from "@/components/footer"
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-background">
+      <Navigation />
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <TechnicalSkills />
+      <OrganizationsAwards />
+      <Education />
+      <Footer />
+    </main>
+  )
+}
