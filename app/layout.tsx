@@ -8,7 +8,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Jinesh Patel - AI/ML Engineer & Data Scientist",
-  description: "Portfolio of Jinan K Thakker - Specializing in AI/ML for wireless communications and data science",
+  description: "Portfolio of Jinesh Patel - Specializing in AI/ML for wireless communications and data science",
   generator: "v0.app",
 }
 
